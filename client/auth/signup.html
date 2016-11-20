@@ -1,0 +1,12 @@
+<ng-include src="'nav.html'"></ng-include>
+<div id='signup'>
+  <h1>signup</h1>
+  <form name="signupForm" ng-submit='signup()'>
+    <input placeholder='Enter Username' type='text' ng-model='user.username'>
+    <input placeholder='Enter Password' type="password" ng-model='user.password'>
+    <input placeholder='Enter Phone' type="tel" ng-model='user.phone'>
+
+    <button>signup</button>
+  </form>
+  <a href="#/signin">Already have an account? <strong>Signin</strong> ...</a>
+</div>

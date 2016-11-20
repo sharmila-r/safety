@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app='localert'>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8" />
+    <title>S4fety</title>
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Orbitron:900' rel='stylesheet' type='text/css'>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/lodash/dist/lodash.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+    <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+    <script src="lib/angular-simple-logger/dist/angular-simple-logger.js"></script>
+    <script src="lib/angular-google-maps/dist/angular-google-maps.js"></script>
+
+    <script src='contacts/contacts.js'></script>
+    <script src="maps/maps.js"></script>
+    <script src="auth/AuthCtrl.js"></script>
+    <script src="showHome.js"></script>
+    <script src="services.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+      <div id='container'></div>
+    <div ng-view>
+      
+    </div>
+
+
+  </body>
+</html>

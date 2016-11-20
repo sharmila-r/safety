@@ -1,0 +1,21 @@
+
+<ng-include src="'nav.html'"></ng-include>
+<div>
+  <div class='contact-display'>
+    <ul>
+      <li><a href='#/addToTrustnet' ng-click'add-contact'>Add Contact</a></li>
+      <li><a href='#' ng-click='showContacts()' >Show Contacts</a></li>
+    </ul>  
+  <div class='contact-parent'>
+    <div class='contacts-card' ng-repeat='contact in contacts'>
+      <div class='contact-name'>{{contact.name}}</div>
+      <br>
+      <div class='contact-phone'>{{contact.phone}}</div>
+      <br>
+      <div class='contact-location'>Lat: {{contact.location.latitude}} Long: {{contact.location.longitude}}</div>
+</div>
+
+    </div>
+  </div>
+</div>
+

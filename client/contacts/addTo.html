@@ -1,0 +1,24 @@
+
+<ng-include src="'nav.html'"></ng-include>
+<div>
+  <div class='contact-display'>
+    <ul>
+      <li><a href='#/addToTrustNet'>Add Contact</a></li>
+      <li><a href='' ng-click='showContacts()' >Show Contacts</a></li>
+    </ul>  
+  </div>
+
+  <div class='addTo center-align'>
+    <form name="addContactForm" ng-submit='addContact()'>
+    <input placeholder='Name' type='text'ng-model='add.contactName'> <br>
+    <input placeholder='Phone Number' type="tel" ng-model='add.phone'><br>
+    Which Categories to add to?<br>
+    <input type="checkbox" value='Emergency' ng-model='add.contactType'> Emergency<br>
+    <input type="checkbox" value='Help' ng-model='add.contactType'> Help<br>
+    <input type="checkbox" value='Call' ng-model='add.contactType'> Call<br>
+
+
+    <button>Add Contact</button>
+  </form>
+  </div>
+</div>

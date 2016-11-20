@@ -1,0 +1,158 @@
+body {
+  font-size: 1em
+}
+
+.help {
+  background-image:-webkit-linear-gradient(135deg, #d38312,#a83279);
+  font-size: 5em;
+  color: white;
+}
+
+.talk {
+  background-image: linear-gradient(135deg, #002f4b,#417711);
+  font-size: 5em;
+  color: white;
+}
+
+.dontpanic {
+  background-image: linear-gradient(135deg,#dc4225, #dc4225);
+  font-size: 5em;
+  color: white;
+
+}
+
+.title {
+  font-family: 'Orbitron', sans-serif;
+  margin: auto;
+  font-size: 5em;
+  background-color: #252525;
+  color:#ffffff;
+  height:1.2em;
+  padding-left: 4.5em;
+}
+
+.margin-top {
+  padding-top: 0.3em;
+}
+
+.clickable{
+  height:3em;
+  cursor: pointer;
+  margin: 0.5em 3em 0 3em;
+  border-radius: 0.2em;
+  transition: 0.3s;
+  box-shadow: 0;
+}
+
+.clickable:hover {
+
+  box-shadow: 0px 0px 0.2em 0.1em rgba(23, 1, 1, .75);
+  text-shadow: 6px 3px 11px rgba(0, 0, 0, 0.52);
+}
+.center-align {
+  font-size: 5em;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.addTo {
+  padding-top: 3em;
+  font-size: 1.5em
+}
+.parent-title {
+  text-align: center;
+}
+.alert {
+  margin: auto;
+  font-size: 1.5em;
+  color: #FF3B00;
+  background-color: #252525;
+
+}
+
+.navigation {
+  color: #fffff;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contact-display{
+  background-color: #CCD5D6;
+  height:3em;
+}
+.contact-display ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-display li{
+  color:white;
+  font-size: 2em;
+  float: left;
+  padding: 0.2em 0 0 0.3em;
+}
+
+.navigation li {
+  font-size: 1.5em;
+  float: right;
+}
+
+.navigation li a {
+  color: white;
+  width: 5em;
+  height: 20px;
+  line-height: 20px;
+  padding: 10px 5px 10px 1px;
+  display: block;
+  text-align: center;
+}
+
+.navigation li a:hover {
+  background-color: #ddd;
+}
+
+.navigation li a.selected {
+  background-color: #ccc;
+}
+
+.contact-parent {
+  text-align:center;
+  margin: 3em;
+}
+
+.contact-parent {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contacts-card {
+  font-size: 1em;
+  color: white;
+  background: #252525;
+  margin:1em;
+  margin-top:4em;
+  padding:2em 2em 1em 1em;
+  display:inline;
+  float: left;
+  justify-content:center;
+  align-items:center;
+  width: 30%;
+}
+
+
+.angular-google-map-container { height: 40em; }
+
+.fade.ng-enter {
+  transition:0.3s linear all;
+  opacity:0;
+}
+
+/* The finishing CSS styles for the enter animation */
+.fade.ng-enter.ng-enter-active {
+  opacity:1;
+}

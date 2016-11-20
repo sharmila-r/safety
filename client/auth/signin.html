@@ -1,0 +1,27 @@
+
+<div class=parent-title >
+<div class='navigation'>
+  <ul>
+    <li><a href='#/' class='index'>Home</a></li>
+    <li><a href='#/maps' class='index'>Location</a></li>
+    <li><a href='#/add-contacts' class='add-contacts'>Contacts</a></li>
+  </ul>
+   <ul>
+      <li><a href='#' ng-click='signin()' class='logout'>Sign In</a></li>
+  </ul>
+</div>
+<div class='title'>
+<div class='margin-top'>S4fety</div>
+</div>
+
+</div>
+
+<div id='signin'>
+  <h1>Signin</h1>
+  <form name="signinForm" ng-submit='signin()'>
+    <input type='text'ng-model='user.username'><br>
+    <input type="password" ng-model='user.password'>
+    <button>Signin</button>
+  </form>
+  <a href="#/signup">Sign up here <h3>Signup</h3></a>
+</div>
